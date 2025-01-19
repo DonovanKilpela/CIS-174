@@ -1,0 +1,68 @@
+﻿@model FirstResponsiveWebAppKilpela.Models.AgeData
+
+@{
+    ViewData["Title"] = "Age Calculator";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <title>Age Calculator</title>
+
+    <script>
+        function clearForm() {
+            // I have tried to get it to clear the form after it submits and all I can
+            // find on it is this solution. Is there a way that you know of that is better? 
+
+            // Reset the form fields
+            document.getElementById('ageCalculatorForm').reset();
+
+            // Clear validation messages
+            const validationMessages = document.querySelectorAll('.text-danger');
+            validationMessages.forEach(msg => msg.textContent = '');
+
+            // Clear output message
+            const resultMessage = document.getElementById('resultMessage');
+            if (resultMessage) {
+                resultMessage.innerHTML = ''; // Clear the content of the result message
+            }
+        }
+    </script>
+
+</head>
+
+<body class="p-4 m-3">
+    <h1> Age Calculator </h1>
+    <p>Please Enter in a name and your birth year.</p>
+
+    <!-- input, label and validation message for Name -->
+    <form id="ageCalculatorForm" asp-action="Index" method="post">
+        <div class="form-floating">
+            <input id="Name" asp-for="Name" class="form-control" />
+            <label asp-for="Name" class="form-label"></label>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <!-- Input, label and validation for the BirthYear  -->
+        <div class="form-floating mb-3 mt-3">
+            <input id="BirthYear" asp-for="birthYear" class="form-control" />
+            <label asp-for="birthYear" class="form-label"></label>
+            <span asp-validation-for="birthYear" class="text-danger"></span>
+        </div>
+
+        <!-- Buttons for the user to click to submit and clear the form -->
+        <button type="submit" class="btn btn-primary">Calculate Age</button>
+        <button type="reset" class="btn btn-secondary" onclick="clearForm()">Clear</button>
+    </form>
+
+    @if (ViewBag.Result != null)
+    {
+        // Displays the message to user once the form is submitted correctly 
+        <div id="resultMessage">
+            <p>@ViewBag.Result</p>
+        </div>
+    }
+</body>
+</html>
