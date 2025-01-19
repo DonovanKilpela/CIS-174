@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj": {}
+    "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj": {}
   },
   "projects": {
-    "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj": {
+    "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj",
+        "projectUniqueName": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj",
         "projectName": "Ch02FutueValueKilpela",
-        "projectPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj",
+        "projectPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Ch02FutueValueKilpela.csproj",
         "packagesPath": "C:\\Users\\donov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\obj\\",
+        "outputPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

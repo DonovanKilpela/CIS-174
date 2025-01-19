@@ -1,32 +1,29 @@
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
 using Ch02FutueValueKilpela.Models;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Ch02FutueValueKilpela.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        [HttpGet]
         public IActionResult Index()
         {
+            ViewBag.FV = 0; 
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult Index(FutureValueModel model)
         {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (ModelState.IsValid)
+            {
+                ViewBag.FV = model.CalculateFutureValue();
+            }
+            else
+            {
+                ViewBag.FV = 0;
+            }
+            return View(model);
         }
     }
 }

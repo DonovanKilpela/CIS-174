@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\Ch02FutueValueKilpela\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\ch02futuevaluekilpela\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\ch02futuevaluekilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\ch02futuevaluekilpela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\ch02futuevaluekilpela\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\ch02futuevaluekilpela\\models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB1AC1F3-F7EB-48CC-83D3-F2B6FE269C63}|Ch02FutueValueKilpela.csproj|solutionrelative:models\\futurevaluemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FutureValueModel.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Models\\FutureValueModel.cs",
+              "RelativeDocumentMoniker": "Models\\FutureValueModel.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Models\\FutureValueModel.cs",
+              "RelativeToolTip": "Models\\FutureValueModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T02:52:37.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T02:45:52.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T02:45:23.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T02:13:52.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Ch02FutueValueKilpela\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T02:12:06.821Z",
+              "EditorCaption": ""
             }
           ]
         },
