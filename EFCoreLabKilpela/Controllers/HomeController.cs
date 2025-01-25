@@ -1,26 +1,19 @@
 using System.Diagnostics;
 using EFCoreLabKilpela.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace EFCoreLabKilpela.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
+        private MovieContext context { get; set; }
+        public HomeController(MovieContext ctx) => context = ctx;
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
+            var movies = context.Movies.Include(m => m.Genre)
+                .OrderBy(m => m.Name).ToList(); 
+            return View(movies);
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreLabKilpela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5d0ae626e2860526f215abdfde1c03612cff12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c3cb2a836795c9457d9796ed1755a42dc959f7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreLabKilpela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreLabKilpela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
