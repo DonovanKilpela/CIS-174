@@ -1,7 +1,11 @@
 ﻿@model Contact
 @{
-    ViewData["Title"] = "Delete Contact";
+    string title = "Delete Contact";
+    ViewBag.Title = title;
 }
+
+<title>@ViewBag.Title</title>
+
 
 <h2>Confirm Delete</h2>
 <h3>@Model.Name (@Model.PhoneNumber)</h3>

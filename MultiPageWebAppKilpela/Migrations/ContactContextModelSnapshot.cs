@@ -54,10 +54,10 @@ namespace MultiPageWebAppKilpela.Migrations
                         new
                         {
                             ContactId = 1,
-                            Address = "2625 Camelot Drive",
-                            Name = "Donovan",
-                            Note = "Me",
-                            PhoneNumber = "8595769798"
+                            Address = "Japan",
+                            Name = "Joji",
+                            Note = "Favorite Artist",
+                            PhoneNumber = "123456789"
                         });
                 });
 #pragma warning restore 612, 618

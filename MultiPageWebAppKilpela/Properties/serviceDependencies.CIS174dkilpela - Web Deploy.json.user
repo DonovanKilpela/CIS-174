@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "CIS174dkilpela.subscriptionId": {
+      "Name": "CIS174dkilpela.subscriptionId",
+      "Type": "subscription",
+      "Value": "94027ebe-70e0-45c2-962d-2d0f190b8b3b"
+    },
+    "CIS174dkilpela.resourceGroupLocation": {
+      "Name": "CIS174dkilpela.resourceGroupLocation",
+      "Type": null,
+      "Value": "centralus"
+    },
+    "CIS174dkilpela.resourceName": {
+      "Name": "CIS174dkilpela.resourceName",
+      "Type": null,
+      "Value": "CIS174dkilpela"
+    },
+    "CIS174dkilpela.resourceGroupName": {
+      "Name": "CIS174dkilpela.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CIS_174"
+    }
+  }
+}

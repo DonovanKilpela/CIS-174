@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiPageWebAppKilpela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6aa0b48054abc76707e4ca6cedd1a4f06f9a362")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34a0ac0638b56b3cd36de23d9faf9b203610318f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiPageWebAppKilpela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiPageWebAppKilpela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

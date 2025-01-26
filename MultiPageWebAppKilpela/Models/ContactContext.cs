@@ -18,10 +18,10 @@ namespace MultiPageWebAppKilpela.Models
             modelBuilder.Entity<Contact>().HasData(new Contact
             {
                 ContactId = 1,
-                Name = "Donovan",
-                PhoneNumber = "8595769798",
-                Address = "2625 Camelot Drive",
-                Note = "Me"
+                Name = "Joji",
+                PhoneNumber = "123456789",
+                Address = "Japan",
+                Note = "Favorite Artist"
             });
         }
     }
