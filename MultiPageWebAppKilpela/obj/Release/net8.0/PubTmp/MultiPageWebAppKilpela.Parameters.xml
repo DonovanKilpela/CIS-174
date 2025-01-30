@@ -3,4 +3,7 @@
   <parameter name="IIS Web Application Name" description="" value="CIS174dkilpela" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\donov\\Documents\\School\ Stuff\\Advanced\ C\#\\CIS-174\\MultiPageWebAppKilpela\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
   </parameter>
+  <parameter name="MultiPageWebAppKilpela.Models.ContactContext" description="" value="Server=tcp:dkilpela.database.windows.net,1433;Initial Catalog=CIS174;Persist Security Info=False;User ID=dkilpela;Password=Marlow1998$!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\donov\\Documents\\School\ Stuff\\Advanced\ C\#\\CIS-174\\MultiPageWebAppKilpela\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\MultiPageWebAppKilpela\.Models\.ContactContext\.sql$" />
+  </parameter>
 </parameters>

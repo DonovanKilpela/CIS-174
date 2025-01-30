@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{32F54838-94BA-42E4-9524-5122ACF617C7}|MultiPageWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\multipagewebappkilpela\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32F54838-94BA-42E4-9524-5122ACF617C7}|MultiPageWebAppKilpela.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32F54838-94BA-42E4-9524-5122ACF617C7}|MultiPageWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\multipagewebappkilpela\\migrations\\20250130025143_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32F54838-94BA-42E4-9524-5122ACF617C7}|MultiPageWebAppKilpela.csproj|solutionrelative:migrations\\20250130025143_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250130025143_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\MultiPageWebAppKilpela\\Migrations\\20250130025143_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250130025143_Initial.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\MultiPageWebAppKilpela\\Migrations\\20250130025143_Initial.cs",
+              "RelativeToolTip": "Migrations\\20250130025143_Initial.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T02:51:43.444Z"
             },
             {
               "$type": "Document",
@@ -32,7 +48,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\MultiPageWebAppKilpela\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-26T10:55:23.59Z",
               "EditorCaption": ""
@@ -45,10 +61,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\MultiPageWebAppKilpela\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T02:44:41.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T02:44:41.719Z"
             }
           ]
         },

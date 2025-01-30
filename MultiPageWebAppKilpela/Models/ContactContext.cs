@@ -5,9 +5,9 @@ namespace MultiPageWebAppKilpela.Models
     public class ContactContext : DbContext
     {
         // Creating the DB Context for the MVC App
-        public ContactContext(DbContextOptions<ContactContext> options) 
-            : base(options) 
-        { 
+        public ContactContext(DbContextOptions<ContactContext> options)
+        : base(options)
+        {
         }
 
         public DbSet<Contact> Contacts { get; set; }

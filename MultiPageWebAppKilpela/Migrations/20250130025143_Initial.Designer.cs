@@ -11,8 +11,8 @@ using MultiPageWebAppKilpela.Models;
 namespace MultiPageWebAppKilpela.Migrations
 {
     [DbContext(typeof(ContactContext))]
-    [Migration("20250126102531_Intitial")]
-    partial class Intitial
+    [Migration("20250130025143_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

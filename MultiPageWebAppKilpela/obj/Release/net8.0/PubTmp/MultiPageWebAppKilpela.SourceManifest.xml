@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
   <IisApp path="C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Release\net8.0\PubTmp\EFSQLScripts\MultiPageWebAppKilpela.Models.ContactContext.sql" />
 </sitemanifest>

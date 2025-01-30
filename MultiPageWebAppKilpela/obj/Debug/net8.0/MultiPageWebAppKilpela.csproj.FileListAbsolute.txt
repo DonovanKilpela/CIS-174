@@ -164,7 +164,6 @@ C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MultiPageWebAppKilpela.props
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MultiPageWebAppKilpela.props
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\MultiPag.0C3DB46E.Up2Date
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\MultiPageWebAppKilpela.dll
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\MultiPageWebAppKilpela\obj\Debug\net8.0\refint\MultiPageWebAppKilpela.dll

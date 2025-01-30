@@ -6,7 +6,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <History>True|2025-01-26T11:18:40.4538601Z||;True|2025-01-26T04:47:36.1767593-06:00||;True|2025-01-26T04:45:37.7788162-06:00||;</History>
+    <History>True|2025-01-30T04:55:24.6727102Z||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ContactContext">
+      <Value>Server=tcp:dkilpela.database.windows.net,1433%3bInitial Catalog=CIS174%3bPersist Security Info=False%3bUser ID=dkilpela%3bPassword=Marlow1998%24!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MultiPageWebAppKilpela.Models.ContactContext">
+      <Value>Server=tcp:dkilpela.database.windows.net,1433%3bInitial Catalog=CIS174%3bPersist Security Info=False%3bUser ID=dkilpela%3bPassword=Marlow1998%24!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
 </Project>
