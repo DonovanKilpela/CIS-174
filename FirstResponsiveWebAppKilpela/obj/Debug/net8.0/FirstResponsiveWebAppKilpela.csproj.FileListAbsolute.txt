@@ -31,3 +31,7 @@ C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppK
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\obj\Debug\net8.0\FirstResponsiveWebAppKilpela.pdb
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\obj\Debug\net8.0\FirstResponsiveWebAppKilpela.genruntimeconfig.cache
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\obj\Debug\net8.0\ref\FirstResponsiveWebAppKilpela.dll
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\bin\Debug\net8.0\Moq.dll
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\obj\Debug\net8.0\FirstResponsiveWebAppKilpela.csproj.AssemblyReference.cache
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\FirstResponsiveWebAppKilpela\obj\Debug\net8.0\FirstRes.DB2AFC31.Up2Date

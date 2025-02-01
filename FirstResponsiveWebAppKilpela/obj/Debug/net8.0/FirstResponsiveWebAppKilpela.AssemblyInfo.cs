@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstResponsiveWebAppKilpela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a31a3b7415c17dd3ccac75c006da9f02a3dd09af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdcd211acb24d112ffb8c2cb2ccfec6fbfad119c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstResponsiveWebAppKilpela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstResponsiveWebAppKilpela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,24 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivewebappkilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivewebappkilpela\\models\\agedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|solutionrelative:models\\agedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivewebappkilpela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivewebappkilpela\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivewebappkilpela\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E8C0F9-A40A-4E86-8B5E-3909AD829E17}|FirstResponsiveWebAppKilpela.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2EEEEFB5-250B-4767-9849-50C71569D58D}|..\\FirstResponsiveTestsKilpela\\FirstResponsiveTestsKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\firstresponsivetestskilpela\\agedatatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +21,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAAN8BAAAAAAAAAAAIwGkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-19T18:21:28.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T17:28:32.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgeData.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Models\\AgeData.cs",
-              "RelativeDocumentMoniker": "Models\\AgeData.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Models\\AgeData.cs",
-              "RelativeToolTip": "Models\\AgeData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T17:10:31.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T05:26:25.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveWebAppKilpela\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABvAAAAAAAAAA==",
+              "Title": "AgeDataTests.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveTestsKilpela\\AgeDataTests.cs",
+              "RelativeDocumentMoniker": "..\\FirstResponsiveTestsKilpela\\AgeDataTests.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\FirstResponsiveTestsKilpela\\AgeDataTests.cs",
+              "RelativeToolTip": "..\\FirstResponsiveTestsKilpela\\AgeDataTests.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwG4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T05:25:09.707Z",
+              "WhenOpened": "2025-02-01T15:14:08.17Z",
               "EditorCaption": ""
             }
           ]
