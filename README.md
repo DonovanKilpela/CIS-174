@@ -23,8 +23,20 @@ This repository serves as a portfolio of my progress and achievements in C# prog
 
 ## 📝 Assignments
 
-Here's a list of assignments I've completed so far:
+## Module 1
 
+*   [First Responsive Web App - Module 1](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%201/FirstResponsiveWebAppKilpela) - A simple web application demonstrating responsive design principles.
+*   [First Responsive Tests - Module 1](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%201/FirstResponsiveTestsKilpela) - Unit tests for the First Responsive Web App.
+*   [Future Value Calculator - Module 1](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%201/Ch02FutueValueKilpela) - A web application that calculates the future value of a person age.
+
+## Module 2
+
+*   [Multi Page Web App - Module 2](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%202/MultiPageWebAppKilpela) - A more complex web application with multiple pages.
+*   [EF Core Lab - Module 2](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%202/EFCoreLabKilpela) - An exercise using Entity Framework Core to interact with a database.
+
+## Module 5
+
+*   [Routing Examples - Module 5](https://github.com/DonovanKilpela/CIS-174/tree/Assignments/Module%205/Ch05RoutingExamplesKilpela) - Demonstrations of different routing techniques in ASP.NET Core.
 
 ## 📬 Contact
 
