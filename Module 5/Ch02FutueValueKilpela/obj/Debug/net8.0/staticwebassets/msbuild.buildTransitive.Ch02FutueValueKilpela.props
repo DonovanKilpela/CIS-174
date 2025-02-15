@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ch02FutueValueKilpela.props" />
+</Project>
