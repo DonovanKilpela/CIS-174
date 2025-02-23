@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 6\\razortemplateskilpela\\controllers\\assignment6_1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|solutionrelative:controllers\\assignment6_1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 6\\razortemplateskilpela\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 6\\razortemplateskilpela\\viewmodel\\assignment6_1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B158EBF-68A3-41B7-995A-1F81F5E855CD}|RazorTemplatesKilpela.csproj|solutionrelative:viewmodel\\assignment6_1viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 367,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assignment6_1ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\ViewModel\\Assignment6_1ViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\Assignment6_1ViewModel.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\ViewModel\\Assignment6_1ViewModel.cs",
+              "RelativeToolTip": "ViewModel\\Assignment6_1ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:31:16.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:33:34.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Assignment6_1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\Controllers\\Assignment6_1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Assignment6_1Controller.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 6\\RazorTemplatesKilpela\\Controllers\\Assignment6_1Controller.cs",
+              "RelativeToolTip": "Controllers\\Assignment6_1Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T18:31:40.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 85,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

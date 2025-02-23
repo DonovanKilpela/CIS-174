@@ -1,0 +1,53 @@
+﻿@using RazorTemplatesKilpela.ViewModel
+@model Assignment6_1ViewModel
+
+<h2>Student Information</h2>
+
+@* This will check if there's an error message to display *@
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <p class="text-danger">@Model.ErrorMessage</p>
+}
+@* This will check if the user has insufficient access level *@
+else if (Model.AccessLevel < 2)
+{
+    <p>You do not have a sufficient access level to view this data.</p>
+}
+else
+{
+    @* This will display an admin greeting for high access levels *@
+    @if (Model.AccessLevel >= 8)
+    {
+        <h3>Hello Admin</h3>
+    }
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    @* This will show the Grade column only for admin access *@
+                    @if (Model.AccessLevel >= 8)
+                    {
+                        <th>Grade</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @* This will loop through and display student information *@
+                @foreach (var student in Model.Students)
+                {
+                    <tr>
+                        <td>@student.FirstName</td>
+                        <td>@student.LastName</td>
+                        @* This will display the grade only for admin access *@
+                        @if (Model.AccessLevel >= 8)
+                        {
+                            <td>@student.Grade</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
