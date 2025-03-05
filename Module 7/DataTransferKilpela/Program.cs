@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using DataTransferKilpela.Models;
+
 namespace DataTransferKilpela
 {
     public class Program
@@ -8,6 +11,10 @@ namespace DataTransferKilpela
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            // Add DbContext configuration
+            builder.Services.AddDbContext<OlympicDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 

@@ -1,32 +1,72 @@
-using System.Diagnostics;
 using DataTransferKilpela.Models;
+using DataTransferKilpela.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace DataTransferKilpela.Controllers
+// Controller for handling home-related actions
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    // Database context for Olympic data
+    private readonly OlympicDbContext _context;
+
+    // Constructor to initialize the database context
+    public HomeController(OlympicDbContext context)
     {
-        private readonly ILogger<HomeController> _logger;
+        _context = context;
+    }
 
-        public HomeController(ILogger<HomeController> logger)
+    // Action to display the index page with filtered countries
+    public IActionResult Index(string game = "all", string category = "all")
+    {
+        // Create and populate the view model with filter options
+        var viewModel = new CountryFilterViewModel
         {
-            _logger = logger;
+            Games = _context.OlympicGames.ToList(),
+            Categories = _context.Sports.Select(s => s.Category).Distinct().ToList(),
+            SelectedGame = game,
+            SelectedCategory = category
+        };
+
+        // Query to retrieve countries with related data
+        var query = _context.Countries
+            .Include(c => c.Game)
+            .Include(c => c.Sport)
+            .OrderBy(c => c.Name)
+            .AsQueryable();
+
+        // Apply game filter if specified
+        if (game != "all")
+        {
+            query = query.Where(c => c.GameId == game);
         }
 
-        public IActionResult Index()
+        // Apply category filter if specified
+        if (category != "all")
         {
-            return View();
+            query = query.Where(c => c.Sport.Category == category);
         }
 
-        public IActionResult Privacy()
+        // Execute query and add results to view model
+        viewModel.Countries = query.ToList();
+
+        return View(viewModel);
+    }
+
+    // Action to display details of a specific country
+    public IActionResult Details(int id)
+    {
+        // Retrieve country with related data
+        var country = _context.Countries
+            .Include(c => c.Game)
+            .Include(c => c.Sport)
+            .FirstOrDefault(c => c.CountryId == id);
+
+        // Return 404 if country not found
+        if (country == null)
         {
-            return View();
+            return NotFound();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        return View(country);
     }
 }

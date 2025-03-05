@@ -7,8 +7,39 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Home\" />
-    <Folder Include="Views\Shared\" />
+    <None Include="wwwroot\images\Austria.png" />
+    <None Include="wwwroot\images\Brazil.png" />
+    <None Include="wwwroot\images\Canada.png" />
+    <None Include="wwwroot\images\China.png" />
+    <None Include="wwwroot\images\Cyprus.png" />
+    <None Include="wwwroot\images\Finland.png" />
+    <None Include="wwwroot\images\France.png" />
+    <None Include="wwwroot\images\Germany.png" />
+    <None Include="wwwroot\images\Italy.png" />
+    <None Include="wwwroot\images\Jamaica.png" />
+    <None Include="wwwroot\images\Japan.png" />
+    <None Include="wwwroot\images\Mexico.png" />
+    <None Include="wwwroot\images\Netherlands.png" />
+    <None Include="wwwroot\images\Pakistan.png" />
+    <None Include="wwwroot\images\Portugal.png" />
+    <None Include="wwwroot\images\Russia.png" />
+    <None Include="wwwroot\images\Slovakia.png" />
+    <None Include="wwwroot\images\Sweden.png" />
+    <None Include="wwwroot\images\Thailand.png" />
+    <None Include="wwwroot\images\Ukraine.png" />
+    <None Include="wwwroot\images\Great_Britain.png" />
+    <None Include="wwwroot\images\United_States.png" />
+    <None Include="wwwroot\images\Uruguay.png" />
+    <None Include="wwwroot\images\Zimbabwe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

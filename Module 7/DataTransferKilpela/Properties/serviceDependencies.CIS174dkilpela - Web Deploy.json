@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection1_470260A881",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dkilpela/databases/CIS174",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection1",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection2_3A6A797DE2",
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dkilpela/databases/CIS174",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection2",
+      "dynamicId": null
+    }
+  }
+}

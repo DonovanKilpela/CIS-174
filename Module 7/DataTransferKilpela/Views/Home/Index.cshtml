@@ -1,0 +1,58 @@
+﻿@using DataTransferKilpela.ViewModels
+@model CountryFilterViewModel
+
+<div class="container-fluid">
+    <div class="row">
+        
+        <div class="col-md-3">
+            <h3>Filter by Game</h3>
+            <div class="d-grid gap-2">
+                <a asp-action="Index" asp-route-game="all" asp-route-category="@Model.SelectedCategory"
+                   class="btn @(Model.SelectedGame == "all" ? "btn-primary" : "btn-outline-primary")">
+                    All
+                </a>
+                @foreach (var game in Model.Games)
+                {
+                    <a asp-action="Index" asp-route-game="@game.GameId" asp-route-category="@Model.SelectedCategory"
+                       class="btn @(Model.SelectedGame == game.GameId ? "btn-primary" : "btn-outline-primary")">
+                        @game.Name
+                    </a>
+                }
+            </div>
+
+            <h3 class="mt-4">Filter by Category</h3>
+            <div class="d-grid gap-2">
+                <a asp-action="Index" asp-route-game="@Model.SelectedGame" asp-route-category="all"
+                   class="btn @(Model.SelectedCategory == "all" ? "btn-primary" : "btn-outline-primary")">
+                    All
+                </a>
+                @foreach (var category in Model.Categories)
+                {
+                    <a asp-action="Index" asp-route-game="@Model.SelectedGame" asp-route-category="@category"
+                       class="btn @(Model.SelectedCategory == category ? "btn-primary" : "btn-outline-primary")">
+                        @category
+                    </a>
+                }
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <h2>Countries</h2>
+            <div class="row">
+                @foreach (var country in Model.Countries)
+                {
+                    <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-3">
+                        <div class="country-item">
+                            <a asp-action="Details" asp-route-id="@country.CountryId" class="country-link">
+                                <img src="~/images/@country.FlagImage" alt="@country.Name" class="img-fluid"
+                                     data-bs-toggle="tooltip"
+                                     data-bs-placement="top"
+                                     title="@country.Name - @country.Game.Name - @country.Sport.Category" />
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2025-03-05T21:10:36.0712384Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2025-03-05T21:05:59.9630062Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "94027ebe-70e0-45c2-962d-2d0f190b8b3b"
+    },
+    "mssql2.serviceConnectorResourceGroupName": {
+      "Name": "mssql2.serviceConnectorResourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CIS_174"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CIS_174"
+    },
+    "mssql2.resourceGroupName": {
+      "Name": "mssql2.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CIS_174"
+    },
+    "mssql2.subscriptionId": {
+      "Name": "mssql2.subscriptionId",
+      "Type": "subscription",
+      "Value": "94027ebe-70e0-45c2-962d-2d0f190b8b3b"
+    },
+    "mssql1.serviceConnectorResourceGroupName": {
+      "Name": "mssql1.serviceConnectorResourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "CIS_174"
+    }
+  }
+}
