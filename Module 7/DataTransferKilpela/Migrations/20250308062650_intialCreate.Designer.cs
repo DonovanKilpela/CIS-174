@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataTransferKilpela.Migrations
 {
     [DbContext(typeof(OlympicDbContext))]
-    [Migration("20250305200111_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20250308062650_intialCreate")]
+    partial class intialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -76,9 +76,9 @@ namespace DataTransferKilpela.Migrations
                         new
                         {
                             CountryId = 3,
-                            FlagImage = "Great_Britain.png",
+                            FlagImage = "United_Kingdom.png",
                             GameId = "winter",
-                            Name = "Great Britain",
+                            Name = "United Kingdom",
                             SportId = "curling"
                         },
                         new

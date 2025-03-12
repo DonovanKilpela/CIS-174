@@ -2,9 +2,15 @@
 @model CountryFilterViewModel
 
 <div class="container-fluid">
+    <!-- Favorites Button -->
+    <div class="bg-light p-3 mb-4">
+        <a asp-action="Index" asp-controller="Favorites" class="btn btn-outline-primary w-100">
+            Favorites (@ViewBag.FavoritesCount)
+        </a>
+    </div>
     <div class="row">
-        
         <div class="col-md-3">
+            
             <h3>Filter by Game</h3>
             <div class="d-grid gap-2">
                 <a asp-action="Index" asp-route-game="all" asp-route-category="@Model.SelectedCategory"
@@ -36,8 +42,11 @@
             </div>
         </div>
 
+
         <div class="col-md-9">
             <h2>Countries</h2>
+
+            <!-- Countries Section -->
             <div class="row">
                 @foreach (var country in Model.Countries)
                 {

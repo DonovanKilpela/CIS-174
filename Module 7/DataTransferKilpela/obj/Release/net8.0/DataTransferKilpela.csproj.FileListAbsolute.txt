@@ -169,3 +169,5 @@ C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferK
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferKilpela\obj\Release\net8.0\DataTransferKilpela.pdb
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferKilpela\obj\Release\net8.0\DataTransferKilpela.genruntimeconfig.cache
 C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferKilpela\obj\Release\net8.0\ref\DataTransferKilpela.dll
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferKilpela\bin\Release\net8.0\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Users\donov\Documents\School Stuff\Advanced C#\CIS-174\Module 7\DataTransferKilpela\bin\Release\net8.0\Azure.Security.KeyVault.Secrets.dll

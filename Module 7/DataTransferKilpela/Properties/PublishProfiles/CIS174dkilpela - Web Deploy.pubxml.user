@@ -6,7 +6,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <History>True|2025-03-05T21:11:17.3463513Z||;True|2025-03-05T15:06:49.2708408-06:00||;True|2025-03-05T15:03:18.0790596-06:00||;True|2025-03-05T15:01:18.0716061-06:00||;</History>
+    <History>True|2025-03-08T05:57:52.2238853Z||;True|2025-03-07T23:53:49.2061890-06:00||;True|2025-03-07T23:51:01.6653881-06:00||;True|2025-03-05T15:11:17.3463513-06:00||;True|2025-03-05T15:06:49.2708408-06:00||;True|2025-03-05T15:03:18.0790596-06:00||;True|2025-03-05T15:01:18.0716061-06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="OlympicDbContext">
+      <Value>Server=tcp:dkilpela.database.windows.net%3bAuthentication=Active Directory Default%3bDatabase=CIS174%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
 </Project>

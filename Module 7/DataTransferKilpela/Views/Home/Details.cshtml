@@ -20,11 +20,10 @@
                 <h4>Sport: @Model.Sport.Name</h4>
             </li>
             <li class="list-group-item">
-                <form method="post" asp-action="Add" asp-controller="Favorites">
-                    <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Return to Home Page</a>
+                <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Return to Home Page</a>
+                <form asp-action="AddToFavorites" asp-controller="Home" method="post" style="display: inline;">
+                    <input type="hidden" name="id" value="@Model.CountryId" />
                     <button type="submit" class="btn btn-primary">Add to Favorites</button>
-                    <input type="hidden" asp-for="@Model.CountryId" />
-                    <input type="hidden" asp-for="@Model.Name" />
                 </form>
             </li>
         </ul>

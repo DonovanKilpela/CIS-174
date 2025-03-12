@@ -73,9 +73,9 @@ namespace DataTransferKilpela.Migrations
                         new
                         {
                             CountryId = 3,
-                            FlagImage = "Great_Britain.png",
+                            FlagImage = "United_Kingdom.png",
                             GameId = "winter",
-                            Name = "Great Britain",
+                            Name = "United Kingdom",
                             SportId = "curling"
                         },
                         new

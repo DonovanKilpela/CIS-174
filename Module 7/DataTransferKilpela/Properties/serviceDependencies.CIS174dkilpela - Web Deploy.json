@@ -1,20 +1,18 @@
 {
   "dependencies": {
-    "mssql1": {
-      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection1_470260A881",
+    "secrets1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/VaultUri_EE95FE3D0B",
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dkilpela/databases/CIS174",
-      "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:DefaultConnection1",
-      "dynamicId": null
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/DataTransferKilpelavault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
     },
-    "mssql2": {
-      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection2_3A6A797DE2",
-      "secretStore": null,
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/CIS174dkilpela/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsOlympicDbContext1_43C26C3098",
+      "secretStore": "AzureKeyVault",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/dkilpela/databases/CIS174",
       "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:DefaultConnection2",
-      "dynamicId": null
+      "connectionId": "ConnectionStrings:OlympicDbContext1"
     }
   }
 }

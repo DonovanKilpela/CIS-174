@@ -11,6 +11,8 @@ namespace DataTransferKilpela
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddMemoryCache();
+            builder.Services.AddSession();
 
             // Add DbContext configuration
             builder.Services.AddDbContext<OlympicDbContext>(options =>
@@ -30,6 +32,8 @@ namespace DataTransferKilpela
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseSession();
 
             app.UseAuthorization();
 

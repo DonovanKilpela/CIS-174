@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html >
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -9,10 +9,14 @@
 <body>
     <div class="container">
         <header class="text-center text-white">
-            <h1 class="bg-primary mt-3 p-3">Olympic Countries</h1>
-            @if (TempData.Keys.Contains("message"))
+            <div class="d-flex flex-column">
+                <h1 class="bg-primary mt-3 p-3 text-center">Olympic Countries</h1>
+                
+            </div>
+
+            @if (TempData.Keys.Contains("Message"))
             {
-                <h4 class="bg-success p-2">@TempData["message"]</h4>
+                <h4 class="bg-success p-2 mt-3">@TempData["Message"]</h4>
             }
         </header>
         <main>
