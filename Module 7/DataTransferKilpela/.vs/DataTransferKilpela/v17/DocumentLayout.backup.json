@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\controllers\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:controllers\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\models\\favoritesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:models\\favoritesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 7\\datatransferkilpela\\viewmodels\\countryfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91516D7-AB5C-4C04-AC23-C17743CCD494}|DataTransferKilpela.csproj|solutionrelative:viewmodels\\countryfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,78 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T03:28:23.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FavoriteSession.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Models\\FavoriteSession.cs",
-              "RelativeDocumentMoniker": "Models\\FavoriteSession.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Models\\FavoriteSession.cs",
-              "RelativeToolTip": "Models\\FavoriteSession.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T03:23:40.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T03:13:39.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T03:10:50.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Favorites.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Controllers\\Favorites.cs",
-              "RelativeDocumentMoniker": "Controllers\\Favorites.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Controllers\\Favorites.cs",
-              "RelativeToolTip": "Controllers\\Favorites.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T03:09:55.238Z",
+              "WhenOpened": "2025-03-21T14:40:47.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CountryFilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\ViewModels\\CountryFilterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CountryFilterViewModel.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\ViewModels\\CountryFilterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CountryFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T14:36:07.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 7\\DataTransferKilpela\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwBgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T03:09:01.386Z",
               "EditorCaption": ""

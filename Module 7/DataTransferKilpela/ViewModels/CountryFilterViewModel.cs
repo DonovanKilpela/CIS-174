@@ -1,4 +1,5 @@
 ﻿using DataTransferKilpela.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DataTransferKilpela.ViewModels
 {
@@ -8,7 +9,9 @@ namespace DataTransferKilpela.ViewModels
         public List<Country> Countries { get; set; } = new List<Country>();
         public List<OlympicGame> Games { get; set; } = new List<OlympicGame>();
         public List<string> Categories { get; set; } = new List<string>();
-        public string SelectedGame { get; set; } = string.Empty;
-        public string SelectedCategory { get; set; } = string.Empty;
+
+        public string SelectedGame { get; set; } = "all";
+
+        public string SelectedCategory { get; set; } = "all";
     }
 }

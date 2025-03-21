@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataTransferKilpela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14675c409991c3520f88111c7f2e336546975dc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7705c62d76a33d84daa02a4550194b3b0167f09b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataTransferKilpela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataTransferKilpela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

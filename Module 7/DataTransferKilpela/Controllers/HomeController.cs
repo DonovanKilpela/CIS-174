@@ -15,43 +15,40 @@ using Microsoft.EntityFrameworkCore;
         }
 
     // Action to display the index page with filtered countries
-        public IActionResult Index(string game = "all", string category = "all")
+        public IActionResult Index(CountryFilterViewModel viewModel)
         {
 
             var favorites = FavoriteSession.GetFavorites(HttpContext);
             ViewBag.FavoritesCount = favorites.Count;
-            
-            // Create and populate the view model with filter options
-            var viewModel = new CountryFilterViewModel
 
-            {
-                Games = _context.OlympicGames.ToList(),
-                Categories = _context.Sports.Select(s => s.Category).Distinct().ToList(),
-                SelectedGame = game,
-                SelectedCategory = category
-            };
+            // Populate filter options
+            viewModel.Games = _context.OlympicGames.ToList();
+            viewModel.Categories = _context.Sports
+                .Select(s => s.Category)
+                .Distinct()
+                .ToList();
 
-        // Query to retrieve countries with related data
-            var query = _context.Countries
+            // Base query
+            IQueryable<Country> query = _context.Countries
                 .Include(c => c.Game)
                 .Include(c => c.Sport)
-                .OrderBy(c => c.Name)
-                .AsQueryable();
+                .OrderBy(c => c.Name);
 
-            if (game != "all")
+            // Apply filters
+            if (viewModel.SelectedGame != "all")
             {
-                query = query.Where(c => c.GameId == game);
+                query = query.Where(c => c.GameId == viewModel.SelectedGame);
             }
 
-            if (category != "all")
+            if (viewModel.SelectedCategory != "all")
             {
-                query = query.Where(c => c.Sport.Category == category);
+                query = query.Where(c => c.Sport.Category == viewModel.SelectedCategory);
             }
 
             viewModel.Countries = query.ToList();
 
             return View(viewModel);
-        }
+    }
 
         public IActionResult Details(int id)
         {

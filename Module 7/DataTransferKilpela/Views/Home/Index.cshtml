@@ -10,36 +10,39 @@
     </div>
     <div class="row">
         <div class="col-md-3">
-            
-            <h3>Filter by Game</h3>
-            <div class="d-grid gap-2">
-                <a asp-action="Index" asp-route-game="all" asp-route-category="@Model.SelectedCategory"
-                   class="btn @(Model.SelectedGame == "all" ? "btn-primary" : "btn-outline-primary")">
-                    All
-                </a>
-                @foreach (var game in Model.Games)
-                {
-                    <a asp-action="Index" asp-route-game="@game.GameId" asp-route-category="@Model.SelectedCategory"
-                       class="btn @(Model.SelectedGame == game.GameId ? "btn-primary" : "btn-outline-primary")">
-                        @game.Name
-                    </a>
-                }
-            </div>
+            <form asp-action="Index" method="get">
+                <input type="hidden" name="SelectedCategory" value="@Model.SelectedCategory" />
+                <h3>Filter by Game</h3>
+                <div class="d-grid gap-2">
+                    <button type="submit" name="SelectedGame" value="all"
+                            class="btn @(Model.SelectedGame == "all" ? "btn-primary" : "btn-outline-primary")">
+                        All
+                    </button>
+                    @foreach (var game in Model.Games)
+                    {
+                        <button type="submit" name="SelectedGame" value="@game.GameId"
+                                class="btn @(Model.SelectedGame == game.GameId ? "btn-primary" : "btn-outline-primary")">
+                            @game.Name
+                        </button>
+                    }
+                </div>
 
-            <h3 class="mt-4">Filter by Category</h3>
-            <div class="d-grid gap-2">
-                <a asp-action="Index" asp-route-game="@Model.SelectedGame" asp-route-category="all"
-                   class="btn @(Model.SelectedCategory == "all" ? "btn-primary" : "btn-outline-primary")">
-                    All
-                </a>
-                @foreach (var category in Model.Categories)
-                {
-                    <a asp-action="Index" asp-route-game="@Model.SelectedGame" asp-route-category="@category"
-                       class="btn @(Model.SelectedCategory == category ? "btn-primary" : "btn-outline-primary")">
-                        @category
-                    </a>
-                }
-            </div>
+                <input type="hidden" name="SelectedGame" value="@Model.SelectedGame" />
+                <h3 class="mt-4">Filter by Category</h3>
+                <div class="d-grid gap-2">
+                    <button type="submit" name="SelectedCategory" value="all"
+                            class="btn @(Model.SelectedCategory == "all" ? "btn-primary" : "btn-outline-primary")">
+                        All
+                    </button>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <button type="submit" name="SelectedCategory" value="@category"
+                                class="btn @(Model.SelectedCategory == category ? "btn-primary" : "btn-outline-primary")">
+                            @category
+                        </button>
+                    }
+                </div>
+            </form>
         </div>
 
 
