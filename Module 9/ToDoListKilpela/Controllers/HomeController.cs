@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ToDoListKilpela.Models;
+using ToDoListKilpela.ViewModels;
 
 namespace ToDoListKilpela.Controllers
 {
@@ -11,37 +12,31 @@ namespace ToDoListKilpela.Controllers
 
         public HomeController(TicketDbContext ctx) => context = ctx;
 
-        public IActionResult Index(string id)
+        public IActionResult Index(string SelectedStatus, string SelectedSprint)
         {
-            var filters = new Filters(id);
-            ViewBag.Filters = filters;
-            ViewBag.Statuses = context.Statuses.ToList();
-            ViewBag.Sprints = context.Tickets
-                .Select(t => t.SprintNumber)
-                .Distinct()
-                .OrderBy(s => s)
-                .ToList();
-
-            IQueryable<Ticket> query = context.Tickets
-                .Include(t => t.Status);
-
-            // Apply Status Filter
-            if (filters.HasStatus)
+            var viewModel = new TicketViewModel
             {
-                query = query.Where(t => t.StatusId == filters.StatusId);
+                SelectedStatus = SelectedStatus ?? "all",
+                SelectedSprint = SelectedSprint ?? "all",
+                Statuses = context.Statuses.ToList(),
+                SprintNumbers = context.Tickets.Select(t => t.SprintNumber).Distinct().OrderBy(s => s).ToList()
+            };
+
+            IQueryable<Ticket> query = context.Tickets.Include(t => t.Status);
+
+            if (viewModel.SelectedStatus != "all")
+            {
+                query = query.Where(t => t.StatusId == viewModel.SelectedStatus);
             }
 
-            // Apply Sprint Filter
-            if (filters.HasSprint)
+            if (viewModel.SelectedSprint != "all" && int.TryParse(viewModel.SelectedSprint, out int sprint))
             {
-                if (int.TryParse(filters.SprintNumber, out int sprint))
-                {
-                    query = query.Where(t => t.SprintNumber == sprint);
-                }
+                query = query.Where(t => t.SprintNumber == sprint);
             }
 
-            var tickets = query.OrderBy(t => t.SprintNumber).ToList();
-            return View(tickets);
+            viewModel.Tickets = query.OrderBy(t => t.SprintNumber).ToList();
+
+            return View(viewModel);
         }
 
         [HttpGet]

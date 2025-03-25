@@ -18,7 +18,7 @@ namespace ToDoListKilpela.Models
         public int SprintNumber { get; set; }
 
         [Required(ErrorMessage = "Please enter a point value.")]
-        [Range(1, 10, ErrorMessage = "Point value must be between 1 and 10.")]
+        [Range(1, 100, ErrorMessage = "Point value must be between 1 and 100.")]
         public int PointValue { get; set; }
 
         [Required(ErrorMessage = "Please select a status.")]

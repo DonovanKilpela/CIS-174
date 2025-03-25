@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\models\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:models\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\viewmodels\\ticketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:viewmodels\\ticketviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,60 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T15:35:24.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T15:33:00.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Filters.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Filters.cs",
-              "RelativeDocumentMoniker": "Models\\Filters.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Filters.cs",
-              "RelativeToolTip": "Models\\Filters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:12:53.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:02:43.114Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -99,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TicketDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\TicketDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\TicketDbContext.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\TicketDbContext.cs",
-              "RelativeToolTip": "Models\\TicketDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Title": "TicketViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\ViewModels\\TicketViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\TicketViewModel.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\ViewModels\\TicketViewModel.cs",
+              "RelativeToolTip": "ViewModels\\TicketViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:06:06.432Z",
+              "WhenOpened": "2025-03-25T00:09:12.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Status.cs",
-              "RelativeDocumentMoniker": "Models\\Status.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Status.cs",
-              "RelativeToolTip": "Models\\Status.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Filters.cs",
+              "RelativeDocumentMoniker": "Models\\Filters.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Filters.cs",
+              "RelativeToolTip": "Models\\Filters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:54:07.62Z",
+              "WhenOpened": "2025-03-24T23:56:44.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Models\\Ticket.cs",
-              "RelativeToolTip": "Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:46:44.932Z",
+              "WhenOpened": "2025-03-24T23:50:31.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T15:33:00.323Z",
               "EditorCaption": ""
             }
           ]

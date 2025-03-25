@@ -1,5 +1,80 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model ToDoListKilpela.ViewModels.TicketViewModel
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <form asp-action="Index" method="get">
+                <div class="mb-3">
+                    <label for="SelectedStatus" class="form-label">Filter by Status</label>
+                    <select name="SelectedStatus" id="SelectedStatus" class="form-select">
+                        <option value="all">All</option>
+                        @foreach (var status in Model.Statuses)
+                        {
+                            <option value="@status.StatusId" selected="@(Model.SelectedStatus == status.StatusId)">
+                                @status.Name
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="SelectedSprint" class="form-label">Filter by Sprint</label>
+                    <select name="SelectedSprint" id="SelectedSprint" class="form-select">
+                        <option value="all">All</option>
+                        @foreach (var sprint in Model.SprintNumbers)
+                        {
+                            <option value="@sprint" selected="@(Model.SelectedSprint == sprint.ToString())">
+                                Sprint @sprint
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                    <a asp-action="Index" class="btn btn-secondary">Reset</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-9">
+            <h2>Tickets</h2>
+            <table class="table table-bordered table-striped mt-2">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Sprint</th>
+                        <th>Points</th>
+                        <th>Status</th>
+                        <th class="w-25">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ticket in Model.Tickets)
+                    {
+                        string highPriority = ticket.PointValue > 50 ? "bg-warning" : "";
+                        <tr>
+                            <td>@ticket.Name</td>
+                            <td>@ticket.Description</td>
+                            <td>@ticket.SprintNumber</td>
+                            <td class="@highPriority">@ticket.PointValue</td>
+                            <td class="@highPriority">@ticket.Status.Name</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@ticket.Id" class="btn btn-primary btn-sm">Edit</a>
+                                <form asp-action="Delete" method="post" style="display: inline;">
+                                    <input type="hidden" name="id" value="@ticket.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm"
+                                            onclick="return confirm('Are you sure you want to delete this ticket?');">
+                                        Delete
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <a asp-action="Add" class="btn btn-primary">Add new ticket</a>
+        </div>
+    </div>
+</div>

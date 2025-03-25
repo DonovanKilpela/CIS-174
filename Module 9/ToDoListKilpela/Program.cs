@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using ToDoListKilpela.Models;
 namespace ToDoListKilpela
 {
     public class Program
@@ -8,6 +10,10 @@ namespace ToDoListKilpela
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDbContext<TicketDbContext>(options =>
+               options.UseSqlServer(
+                   builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
