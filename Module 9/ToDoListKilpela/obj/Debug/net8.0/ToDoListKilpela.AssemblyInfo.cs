@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoListKilpela")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d9af164bb4d230db058a4b72ac82996fc52ead")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b88540df488b075e8ae8bfa2d6ed68652f9ea40")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoListKilpela")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoListKilpela")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
