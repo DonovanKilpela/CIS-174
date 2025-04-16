@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using ToDoListKilpela.Interfaces;
 using ToDoListKilpela.Models;
 namespace ToDoListKilpela
 {
@@ -14,6 +15,8 @@ namespace ToDoListKilpela
             builder.Services.AddDbContext<TicketDbContext>(options =>
                options.UseSqlServer(
                    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 
             var app = builder.Build();
 

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ToDoListKilpela.Interfaces;
 using ToDoListKilpela.Models;
 using ToDoListKilpela.ViewModels;
 
@@ -8,9 +9,12 @@ namespace ToDoListKilpela.Controllers
 {
     public class HomeController : Controller
     {
-        private TicketDbContext context;
+        private readonly ITicketRepository _repository;
 
-        public HomeController(TicketDbContext ctx) => context = ctx;
+        public HomeController(ITicketRepository repository)
+        {
+            _repository = repository;
+        }
 
         public IActionResult Index(string SelectedStatus, string SelectedSprint)
         {
@@ -18,11 +22,11 @@ namespace ToDoListKilpela.Controllers
             {
                 SelectedStatus = SelectedStatus ?? "all",
                 SelectedSprint = SelectedSprint ?? "all",
-                Statuses = context.Statuses.ToList(),
-                SprintNumbers = context.Tickets.Select(t => t.SprintNumber).Distinct().OrderBy(s => s).ToList()
+                Statuses = _repository.GetStatuses(),
+                SprintNumbers = _repository.GetSprintNumbers()
             };
 
-            IQueryable<Ticket> query = context.Tickets.Include(t => t.Status);
+            IQueryable<Ticket> query = _repository.GetTickets();
 
             if (viewModel.SelectedStatus != "all")
             {
@@ -42,7 +46,7 @@ namespace ToDoListKilpela.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            ViewBag.Statuses = context.Statuses.ToList();
+            ViewBag.Statuses = _repository.GetStatuses();
             return View(new Ticket { StatusId = "todo" });
         }
 
@@ -51,19 +55,19 @@ namespace ToDoListKilpela.Controllers
         {
             if (ModelState.IsValid)
             {
-                context.Tickets.Add(ticket);
-                context.SaveChanges();
+                _repository.AddTicket(ticket);
+                _repository.Save();
                 return RedirectToAction("Index");
             }
-            ViewBag.Statuses = context.Statuses.ToList();
+            ViewBag.Statuses = _repository.GetStatuses();
             return View(ticket);
         }
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var ticket = context.Tickets.Find(id);
-            ViewBag.Statuses = context.Statuses.ToList();
+            var ticket = _repository.GetTicketById(id);
+            ViewBag.Statuses = _repository.GetStatuses();
             return View(ticket);
         }
 
@@ -72,20 +76,19 @@ namespace ToDoListKilpela.Controllers
         {
             if (ModelState.IsValid)
             {
-                context.Tickets.Update(ticket);
-                context.SaveChanges();
+                _repository.UpdateTicket(ticket);
+                _repository.Save();
                 return RedirectToAction("Index");
             }
-            ViewBag.Statuses = context.Statuses.ToList();
+            ViewBag.Statuses = _repository.GetStatuses();
             return View(ticket);
         }
 
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            var ticket = context.Tickets.Find(id);
-            context.Tickets.Remove(ticket);
-            context.SaveChanges();
+            _repository.DeleteTicket(id);
+            _repository.Save();
             return RedirectToAction("Index");
         }
     }

@@ -3,16 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolistkilpela\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B4B0B8CC-7B37-4738-8D8C-83CB03C82ABE}|ToDoListKilpela.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1A56BDB4-B4E1-4E4E-B22B-5EDCA99DB0B7}|..\\ToDoListTests\\ToDoListTests.csproj|c:\\users\\donov\\documents\\school stuff\\advanced c#\\cis-174\\module 9\\todolisttests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +13,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 367,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-29T03:17:01.338Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ToDoListTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListTests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ToDoListTests\\UnitTest1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD8AAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T23:50:31.243Z",
+              "WhenOpened": "2025-04-16T01:34:02.837Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\donov\\Documents\\School Stuff\\Advanced C#\\CIS-174\\Module 9\\ToDoListKilpela\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-22T15:33:00.323Z"
             }
           ]
         },
