@@ -1,0 +1,7 @@
+﻿@{
+    var btnClass = (string)ViewData["BtnClass"]!;
+    var statusName = (string)ViewData["StatusName"]!;
+}
+<button type="button" class="btn @btnClass btn-sm" disabled>
+    @statusName
+</button>

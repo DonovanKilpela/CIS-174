@@ -59,7 +59,7 @@
                             <td>@ticket.Description</td>
                             <td>@ticket.SprintNumber</td>
                             <td class="@highPriority">@ticket.PointValue</td>
-                            <td class="@highPriority">@ticket.Status.Name</td>
+                            <td class="@highPriority"> @await Component.InvokeAsync("StatusButton", new { statusId = ticket.StatusId })</td>
                             <td>
                                 <a asp-action="Edit" asp-route-id="@ticket.Id" class="btn btn-primary btn-sm">Edit</a>
                                 <form asp-action="Delete" method="post" style="display: inline;">
